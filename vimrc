@@ -264,6 +264,7 @@ Plug 'docunext/closetag.vim', { 'for': ['html', 'xml'] }
 
 " 快速注释
 Plug 'scrooloose/nerdcommenter'
+let g:NERDSpaceDelims = 1
 
 " 快速加入修改环绕字符
 Plug 'tpope/vim-repeat' | Plug 'tpope/vim-surround'
