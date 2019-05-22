@@ -1,8 +1,10 @@
 # fvim
 
+![screenshots](./screenshots.png)
+
 ## 介绍
 
-自己用的vimrc配置，参考了其他两个配置[vim-vide](https://github.com/bilibili/vim-vide),[k-vim](!https://github.com/wklken/k-vim)
+自己用的vimrc配置，参考了其他两个配置[vim-vide](https://github.com/bilibili/vim-vide),[k-vim](https://github.com/wklken/k-vim)
 
 更详细的配置可以查看vimrc文件
 
@@ -33,7 +35,8 @@
 
 3.将本地的.vimrc备份后替换为新的vimrc
 
-    mv .vimrc .vimrc.bak
+    mv ~/.vimrc ~/.vimrc.bak
+    wget https://raw.githubusercontent.com/Fize/fvim/master/vimrc -o ~/.vimrc
 
 4.打开vim运行命令安装插件
 
