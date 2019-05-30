@@ -28,27 +28,10 @@
     brew install ctags
     brew install the_silver_searcher
 
-2.先安装插件管理vim-plugin
+2.执行安装
 
-    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-3.将本地的.vimrc备份后替换为新的vimrc
-
-    mv ~/.vimrc ~/.vimrc.bak
-    wget https://raw.githubusercontent.com/Fize/fvim/master/vimrc -o ~/.vimrc
-
-4.打开vim运行命令安装插件
-
-    vim
-
-    在命令模式下输入
-    PlugInstall
-
-5.启用ycm插件
-
-    cd .vim/plug/YouCompleteMe
-    ./install.py -h
+    cd fvim
+    ./install.sh
 
 ### 注意
 
