@@ -13,9 +13,15 @@ export WORKDIR=$(pwd)
 mv ~/.vimrc ~/.vimrc.bak
 mv ~/.vim ~/.vim.bak
 
+# backup tmux
+mv ~/.tmux.conf ~/.tmux.conf.bak
+
 # add new
 ln -s ${WORKDIR}/vimrc ~/.vimrc
 ln -s ${WORKDIR} ~/.vim
+
+# add new tmux
+ln -s ${WORKDIR}/tmux.conf ~/.tmux.conf
 
 # install plug
 vim -c PlugInstall -c qall
