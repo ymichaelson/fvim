@@ -10,11 +10,11 @@ set -e
 export WORKDIR=$(pwd)
 
 # backup
-mv ~/.vimrc ~/.vimrc.bak
-mv ~/.vim ~/.vim.bak
+#mv ~/.vimrc ~/.vimrc.bak
+#mv ~/.vim ~/.vim.bak
 
 # backup tmux
-mv ~/.tmux.conf ~/.tmux.conf.bak
+#mv ~/.tmux.conf ~/.tmux.conf.bak
 
 # add new
 ln -s ${WORKDIR}/vimrc ~/.vimrc

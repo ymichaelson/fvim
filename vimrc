@@ -167,10 +167,10 @@ Plug 'airblade/vim-gitgutter'
 let g:gitgutter_max_signs=10000
 
 " golang
-Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries', 'for': 'go'}
+Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
 
 " template
-Plug 'aperezdc/vim-template'
+" Plug 'aperezdc/vim-template'
 
 " let g:go_version_warning = 0
 let g:go_fmt_autosave = 1
@@ -786,8 +786,8 @@ endif
 set background=dark
 set t_Co=256
 
-" colorscheme solarized
-colorscheme molokai
+colorscheme solarized
+" colorscheme molokai
 
 
 " 设置标记一列的背景颜色和数字一行颜色一致
